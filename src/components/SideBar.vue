@@ -121,10 +121,13 @@ font-size: 15px;
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
 overflow:visible;
+z-index: 3;
+background-color:black
 }
 
 .main-menu {
 position:absolute;
+background-color:black;
 top:0;
 bottom:0;
 height:100%;

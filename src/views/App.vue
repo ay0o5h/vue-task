@@ -1,22 +1,19 @@
 <template>
-<SliderComp/>
-  <SideBar/>
+  <SliderComp />
+  <SideBar />
 </template>
 
 <script>
-
-import SideBar from '../components/SideBar.vue';
-import SliderComp from '../components/SliderComp.vue';
+import SideBar from "../components/SideBar.vue";
+import SliderComp from "../components/SliderComp.vue";
 
 export default {
-  name: 'App',
-   components: {
+  name: "App",
+  components: {
     SideBar,
     SliderComp,
-
-  }
- 
-}
+  },
+};
 </script>
 
 <style>
@@ -25,8 +22,7 @@ export default {
   padding: 0;
 }
 body {
-  background-color:rgba(0, 0, 0, 1);
-
+  background-color: rgba(0, 0, 0, 1);
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -34,6 +30,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-
 }
 </style>
